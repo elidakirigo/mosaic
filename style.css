@@ -1,0 +1,44 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat( 30, calc(700px / 30));
+    grid-template-rows: repeat( 18, calc(700px / 30));
+    width:700px;
+    height: 416px;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    margin-left: -350px;
+    margin-top: -208px;
+    border: 1.2em solid #013238;
+    box-shadow: 1em 1em .4em #292323;
+}
+h1 {
+    color:deeppink;
+    font-family: fantasy;
+    font-size: 3em;
+    position: absolute;
+    left:14em;
+    top: 1.8em;
+    text-shadow: 5px 2px 1px #38231b,7px 4px 1px #38231b,9px 4px 1px #38231b;
+}
+.container:after {
+    content: "instagram @kirky254";
+    color: antiquewhite;
+    font-size: .9em;
+    width: 160px;
+}
+.block {
+    background: url(photos/dj.jpg) no-repeat;
+    background-size: 700px 416px;
+}
+* {
+     margin: 0;
+    padding: 0;
+}
+#section {
+    background:radial-gradient(#77fff8,#01363b);
+    position: absolute;
+    width: 100%;
+   
+    height: 90vh;
+}
